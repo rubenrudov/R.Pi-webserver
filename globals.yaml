@@ -1,0 +1,15 @@
+# This file is for global vars we need in the server
+---
+all:
+# For alerting the user about successful setting of the needed credentials in the interfaces file
+# Also using the web pages.
+# email:
+#  username: "TYPE_COMPANY_MAIL_HERE"
+#  password: "TYPE_MAIL_APP_PASS_HERE"
+#  smtp_server: "smtp.gmail.com" # Check for your mail smtp server before using it
+
+# This will let us check if the previous credentials were removed from the interfaces file
+# Found in the provision too.
+  factory:
+    ssid: "FACTORY_SSID"  # Check in the end if they were switched
+    psk: "FACTORY_PSK"
