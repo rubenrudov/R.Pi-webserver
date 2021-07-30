@@ -18,7 +18,7 @@ user use his/her network credentials for begin using Sasha's wheelchair.
 * This action will activate the A.P mode and a webserver that runs on the static ip we created during the provision.
 * The webserver hosts a webapp in which the user will write the net credentials.
 * After the user submits the form, the chair will wait for reset,
-after reset (triple-press on the reset button) the R.Pi will use the new web credentials, and the AP mode will be off. 
+after reset (triple-press on the reset button) the R.Pi will use the new web credentials, and the AP mode will be forced stop using another playbook. 
 
 ## Contribution guidelines for team members:
 * Download the repo
