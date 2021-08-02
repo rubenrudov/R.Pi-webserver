@@ -91,4 +91,4 @@ if __name__ == '__main__':
     # In production, we change it to the static IP that we saved in hosts.yaml
     # Here we use 127.0.0.1 instead but before production we should change it to our static IP address.
     # IMPORTANT NOTE !!!: Make sure you refresh the port from time to time...
-    app.run(host="192.168.1.233", port=5002)
+    app.run(host="xxx.xxx.xxx.xxx", port=5004)
